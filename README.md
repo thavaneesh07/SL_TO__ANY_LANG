@@ -37,6 +37,11 @@ pip install -r requirements.txt
 
 3. Make sure your dataset is present under `data/dataset/` using numeric label folders such as `0`, `1`, `2`, and so on.
 
+## Large Local Assets
+
+The video pipeline assets under `video_data/`, `video_dataset/`, `video_model/`, and `Video_word_context/` are kept local so the repository stays easy to clone on another PC.
+Copy those folders separately if you need the full video workflow on a new machine.
+
 ## Training workflow
 
 ### 1. Extract landmarks
